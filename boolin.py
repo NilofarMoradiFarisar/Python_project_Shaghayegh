@@ -1,0 +1,10 @@
+print(bool(""))
+print(bool(0))
+print(bool(None))
+print(bool("shaghayegh"))
+
+print( 10 > 3)
+print( 10 < 3)
+print(ord("l"))
+print(ord("L"))
+print(ord("c"))
