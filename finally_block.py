@@ -7,6 +7,17 @@ else:
     print("No exception where thrown")
 
 
+file = open("content.txt" )
+file.close()
+
+file = open("content.txt")
+age = int(input("Age: "))
+xfactor = 10/age
+
+
+
+
+
 
 try:
     file = open("content.txt")
@@ -43,6 +54,7 @@ else:
 
 
 try:
+    # with open("content.txt") as file:
     file = open("content.txt")
     age = int(input("Age: "))
     xfactor = 10/age
